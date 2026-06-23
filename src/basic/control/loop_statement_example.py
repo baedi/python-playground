@@ -84,9 +84,22 @@ def print_four_multiples(start: int, end: int):
     print(f"{start} ~ {end} :: {res}")
 
 
+def print_change_the_sign(num_list: list):
+    """
+    입력한 숫자들 중에서 짝수인 것만 부호를 변경하는 로직 (리스트 컴프리헨션 사용 예)
+    :param num_list: 숫자 리스트
+    """
+    result = [
+        v * -1 for v in num_list if v % 2 == 0
+    ]
+    print("{0:=^64}".format("print_change_the_sign()"))
+    print(result)
+
+
 print_all_items(["Apple", "Banana", "Kiwi", "Grape"])
 print_two_divide(100)
 print_three_multiples(25)
 print_odd_even_cnt([1, 55, 23, 50, 14, 22, 19])
 print_vector3([(1, 2, 3), (10, 52, 0.9), (-12, -22.5, 13)])
 print_four_multiples(25, 99)
+print_change_the_sign([5, -10, 12, -103, 55, 678, -119])
