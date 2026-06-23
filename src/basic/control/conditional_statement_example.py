@@ -60,6 +60,22 @@ def print_error_message(err_code: int):
         print("Unknown error!")
 
 
+def print_score_grade(score: int):
+    """
+    점수를 입력받아 등급을 출력하는 함수 (조건부 표현식 이용)
+    :param score: 점수
+    """
+    print("{0:=^64}".format("print_if_expression()"))
+    grade = "A" if score > 80 else (
+        "B" if score > 70 else (
+            "C" if score > 60 else (
+                "D" if score > 50 else "F"
+            )
+        )
+    )
+    print(grade)
+
+
 print_can_buy_check(50000, 11)
 print_can_buy_check(50000, 20)
 print_can_enter(11, True)
@@ -70,3 +86,6 @@ print_find_items('Napkin', ['Fork', 'Sushi', 'Dish'])
 print_error_message(0)
 print_error_message(-50002)
 print_error_message(-50005)
+print_score_grade(99)
+print_score_grade(75)
+print_score_grade(49)
