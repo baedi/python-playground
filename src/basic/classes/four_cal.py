@@ -25,11 +25,13 @@ class FourCal:
         return self.v1 / self.v2
 
 
-a = FourCal()
-a.set_data(4, 2)
-print("v1 : " + str(a.v1))
-print("v2 : " + str(a.v2))
-print(a.add())  # 객체.메소드() 형태의 경우 self에는 자동으로 객체 a가 들어가게 된다.
-print(a.mul())
-print(FourCal.sub(a))  # 이런 형태로도 호출할 수 있다. (클래스명.메소드() 형태, 이 경우는 self에 들어갈 인자를 넣어야 함.)
-print(FourCal.div(a))
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    a = FourCal()
+    a.set_data(4, 2)
+    print("v1 : " + str(a.v1))
+    print("v2 : " + str(a.v2))
+    print(a.add())  # 객체.메소드() 형태의 경우 self에는 자동으로 객체 a가 들어가게 된다.
+    print(a.mul())
+    print(FourCal.sub(a))  # 이런 형태로도 호출할 수 있다. (클래스명.메소드() 형태, 이 경우는 self에 들어갈 인자를 넣어야 함.)
+    print(FourCal.div(a))

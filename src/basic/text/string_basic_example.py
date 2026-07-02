@@ -145,16 +145,18 @@ def print_multi(sentence: str, multi: int):
     print(sentence * multi)
 
 
-# 출력 테스트 (라이브러리화 시에는 제거할 것)
-str_sample = "Hello world hahaha!!"
-print_hello_world()
-print_textarea_normal()
-print_textarea_sql()
-print_direction(str_sample, False)
-print_direction(str_sample, True)
-print_self_introduction("Anna", 21, "Camping")
-print_your_grade("Eric", 85.727)
-print_sort_price("Brian", 50000)
-print_word()
-print_word_with_f("Jack", 50000, 12.575)
-print_multi("Good evening!\n", 3)
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    # 출력 테스트 (라이브러리화 시에는 제거할 것)
+    str_sample = "Hello world hahaha!!"
+    print_hello_world()
+    print_textarea_normal()
+    print_textarea_sql()
+    print_direction(str_sample, False)
+    print_direction(str_sample, True)
+    print_self_introduction("Anna", 21, "Camping")
+    print_your_grade("Eric", 85.727)
+    print_sort_price("Brian", 50000)
+    print_word()
+    print_word_with_f("Jack", 50000, 12.575)
+    print_multi("Good evening!\n", 3)

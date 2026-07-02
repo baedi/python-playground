@@ -26,5 +26,7 @@ def example_deep_copy():
     print("b : %s (id : %d)" % (b, id(b)))
 
 
-example_shallow_copy()
-example_deep_copy()
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    example_shallow_copy()
+    example_deep_copy()

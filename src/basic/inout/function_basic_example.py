@@ -79,18 +79,20 @@ def print_kiosk(coffee: str, is_ice: bool = True, is_cream: bool = False):
         print(f"주문하신 핫 {coffee} 나왔습니다.")
 
 
-print_time(hour=13, minute=29, second=55)
-print_time(second=15, minute=33, hour=21)  # 매개변수를 지정해서 넣는 것도 가능하다.
-print(get_sum(False, 1, 2, 3, 4, 5))
-print_introduce(name="Kevin", hobby="Chess")
-a = get_operations(33, 6)
-print(f"{a}")
-a, b, c, d = get_operations(37, 2)
-print(f"{a}, {b}, {c}, {d}")
-print_kiosk("아메리카노")
-print_kiosk("카페라떼", False, True)
-print_kiosk("콜드브루", None, None)
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    print_time(hour=13, minute=29, second=55)
+    print_time(second=15, minute=33, hour=21)  # 매개변수를 지정해서 넣는 것도 가능하다.
+    print(get_sum(False, 1, 2, 3, 4, 5))
+    print_introduce(name="Kevin", hobby="Chess")
+    a = get_operations(33, 6)
+    print(f"{a}")
+    a, b, c, d = get_operations(37, 2)
+    print(f"{a}, {b}, {c}, {d}")
+    print_kiosk("아메리카노")
+    print_kiosk("카페라떼", False, True)
+    print_kiosk("콜드브루", None, None)
 
-# def 대신 lambda를 사용하여 함수를 호출하는 방식 (한 줄로 구성된 함수를 정의할 때 사용함)
-print_greeting = lambda name1, name2: print(f"Hello {name1}, I'm {name2}!")
-print_greeting("Anna", "John")
+    # def 대신 lambda를 사용하여 함수를 호출하는 방식 (한 줄로 구성된 함수를 정의할 때 사용함)
+    print_greeting = lambda name1, name2: print(f"Hello {name1}, I'm {name2}!")
+    print_greeting("Anna", "John")

@@ -78,10 +78,11 @@ def print_list_function_test():
     print("200 cnt : %d" % a.count(200))  # 특정 값 개수 출력
 
 
-# 출력 테스트 (라이브러리화 시에는 제거할 것)
-print_list()
-print_list_range_sum()
-print_list_merge()
-print_list_multi()
-print_list_delete()
-print_list_function_test()
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    print_list()
+    print_list_range_sum()
+    print_list_merge()
+    print_list_multi()
+    print_list_delete()
+    print_list_function_test()

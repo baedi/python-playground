@@ -30,5 +30,7 @@ def print_tuple_example():
     print("t3[-8:] -> %s" % str(t3[-8:]))
 
 
-print_how_to_declare_tuple()
-print_tuple_example()
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    print_how_to_declare_tuple()
+    print_tuple_example()

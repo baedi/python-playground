@@ -96,10 +96,12 @@ def print_change_the_sign(num_list: list):
     print(result)
 
 
-print_all_items(["Apple", "Banana", "Kiwi", "Grape"])
-print_two_divide(100)
-print_three_multiples(25)
-print_odd_even_cnt([1, 55, 23, 50, 14, 22, 19])
-print_vector3([(1, 2, 3), (10, 52, 0.9), (-12, -22.5, 13)])
-print_four_multiples(25, 99)
-print_change_the_sign([5, -10, 12, -103, 55, 678, -119])
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    print_all_items(["Apple", "Banana", "Kiwi", "Grape"])
+    print_two_divide(100)
+    print_three_multiples(25)
+    print_odd_even_cnt([1, 55, 23, 50, 14, 22, 19])
+    print_vector3([(1, 2, 3), (10, 52, 0.9), (-12, -22.5, 13)])
+    print_four_multiples(25, 99)
+    print_change_the_sign([5, -10, 12, -103, 55, 678, -119])

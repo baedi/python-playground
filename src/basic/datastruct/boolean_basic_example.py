@@ -37,5 +37,7 @@ def print_list_items_sum(num_list: list):
     print("sum : %d" % res_sum)
 
 
-print_bool_condition()
-print_list_items_sum([10, 55, 32, 1, 7, 0, 9])
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    print_bool_condition()
+    print_list_items_sum([10, 55, 32, 1, 7, 0, 9])

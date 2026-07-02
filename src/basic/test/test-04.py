@@ -54,6 +54,8 @@ def q6_write_file():
 
 
 def q7_replace_word():
+    print("{0:=^64}".format(" Q7 "))
+
     # 우선 파일을 미리 만든다.
     make_obj = open("../../../temp/test-04_example07.txt", "w")
     make_obj.write("Life is too short\nyou need java")
@@ -69,6 +71,8 @@ def q7_replace_word():
 
 
 def q8_sum_all_values():
+    print("{0:=^64}".format(" Q8 "))
+
     # 해당 기능이 제대로 동작하려면 console 창에서 인자를 줘야 됨. (모두 숫자로)
     # 예: python src/basic/test/test-04.py 1 2 3 4
     args = sys.argv[1:]
@@ -79,13 +83,15 @@ def q8_sum_all_values():
     return v_sum
 
 
-print(q1_is_odd(3))
-print(q1_is_odd(4))
-print(q2_avg_numbers(1, 2))
-print(q2_avg_numbers(1, 2, 3, 4, 5))
-# q3_input_and_plus()
-q4_find_different_print()
-# q5_fix_file_input()
-# q6_write_file()
-# q7_replace_word()
-print(q8_sum_all_values())
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    print(q1_is_odd(3))
+    print(q1_is_odd(4))
+    print(q2_avg_numbers(1, 2))
+    print(q2_avg_numbers(1, 2, 3, 4, 5))
+    # q3_input_and_plus()
+    q4_find_different_print()
+    # q5_fix_file_input()
+    # q6_write_file()
+    # q7_replace_word()
+    print(q8_sum_all_values())

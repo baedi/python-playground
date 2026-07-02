@@ -1,6 +1,10 @@
 """
     숫자를 한글로 변환해주는 클래스
 """
+DIGIT_ONE = 1
+DIGIT_TEN = 10
+DIGIT_HUNDRED = 100
+DIGIT_THOUSAND = 1000
 
 
 class KoNumberConverter:

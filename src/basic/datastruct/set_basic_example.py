@@ -68,12 +68,14 @@ def control_set(d: set, mode: int, target):
     print("{0:=^64}".format(""))
 
 
-print_set()
-print(conv_str_to_set("Hello world!"))
-print(conv_set_to_list({1, 2, 3}))
-print_set_operation()
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    print_set()
+    print(conv_str_to_set("Hello world!"))
+    print(conv_set_to_list({1, 2, 3}))
+    print_set_operation()
 
-test_set = {1, 2, 3}
-control_set(test_set, 1, 5)
-control_set(test_set, 5, {10, 11, 12})
-control_set(test_set, -1, 11)
+    test_set = {1, 2, 3}
+    control_set(test_set, 1, 5)
+    control_set(test_set, 5, {10, 11, 12})
+    control_set(test_set, -1, 11)

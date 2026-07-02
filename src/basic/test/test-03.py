@@ -59,9 +59,11 @@ def q6_list_comprehension():
     print(result)
 
 
-q1_true_and_false()
-q2_sum_three_multiples()
-q3_make_star()
-q4_print_one_to_hundred()
-q5_score_avg()
-q6_list_comprehension()
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    q1_true_and_false()
+    q2_sum_three_multiples()
+    q3_make_star()
+    q4_print_one_to_hundred()
+    q5_score_avg()
+    q6_list_comprehension()

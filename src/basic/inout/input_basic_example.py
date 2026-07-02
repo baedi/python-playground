@@ -20,5 +20,7 @@ def check_your_weight(weight: int):
         print("You are too thin. are you okay?")
 
 
-weight = input("Input your weight : ")  # 콘솔 입력
-check_your_weight(int(weight))  # 콘솔로 입력받은 값은 문자열이므로 주의
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    weight = input("Input your weight : ")  # 콘솔 입력
+    check_your_weight(int(weight))  # 콘솔로 입력받은 값은 문자열이므로 주의

@@ -72,10 +72,12 @@ def print_self_introduce2(name: str, age: int):
     print("Hello! my name is " + name + ", I'm " + str(age) + " years old.")
 
 
-# 출력 테스트 (라이브러리화 시에는 제거할 것)
-print_alphabet_count("Hello world hahahahaha!")
-print_find_word("Good morning sir!", "morning")
-print_trim("   o_O   ")
-print_split("What about you?")
-print_replace("What should I eat? I eat hamburgers", "eat", "bring")
-print_self_introduce2("Lisa", 17)
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    # 출력 테스트 (라이브러리화 시에는 제거할 것)
+    print_alphabet_count("Hello world hahahahaha!")
+    print_find_word("Good morning sir!", "morning")
+    print_trim("   o_O   ")
+    print_split("What about you?")
+    print_replace("What should I eat? I eat hamburgers", "eat", "bring")
+    print_self_introduce2("Lisa", 17)

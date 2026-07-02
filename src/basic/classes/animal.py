@@ -40,18 +40,20 @@ class Cat(Animal):  # 부모 클래스 상속
         print(f"{self.name}({Animal.type}) cried ... Meow~")
 
 
-pet1 = Animal('Kang', 2, 12)
-print(f"Hello? My pet's name is {pet1.get_name()}!")
-pet1.animal_sound()
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    pet1 = Animal('Kang', 2, 12)
+    print(f"Hello? My pet's name is {pet1.get_name()}!")
+    pet1.animal_sound()
 
-pet2 = Dog('Max', 3, 15)
-pet2.animal_sound()
+    pet2 = Dog('Max', 3, 15)
+    pet2.animal_sound()
 
-pet3 = Cat('Neko', 1, 5)
-pet3.animal_sound()
+    pet3 = Cat('Neko', 1, 5)
+    pet3.animal_sound()
 
-# 클래스변수의 이름을 바꾸게 되면 모든 클래스의 객체에 영향을 준다.
-Animal.type = "???"
-pet1.animal_sound()
-pet2.animal_sound()
-pet3.animal_sound()
+    # 클래스변수의 이름을 바꾸게 되면 모든 클래스의 객체에 영향을 준다.
+    Animal.type = "???"
+    pet1.animal_sound()
+    pet2.animal_sound()
+    pet3.animal_sound()

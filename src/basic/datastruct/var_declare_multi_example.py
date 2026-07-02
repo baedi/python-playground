@@ -32,6 +32,8 @@ def value_change(a: int, b: int):
     print("a : %d, b : %d" % (a, b))
 
 
-example_multi_declare1()
-example_multi_declare2()
-value_change(5, 10)
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    example_multi_declare1()
+    example_multi_declare2()
+    value_change(5, 10)

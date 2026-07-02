@@ -93,11 +93,13 @@ def file_read_and_print4(path: str, file_name: str):
             print(v.strip())
 
 
-input_path = "../../../temp"  # (중요) 이 프로젝트에 temp 디렉토리 생성 필요
-input_file_name = "hello.txt"
-file_write_content(input_path, input_file_name)
-file_read_and_print(input_path, input_file_name)
-file_read_and_print2(input_path, input_file_name)
-file_add_content(input_path, input_file_name)
-file_read_and_print3(input_path, input_file_name)
-file_read_and_print4(input_path, input_file_name)
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    input_path = "../../../temp"  # (중요) 이 프로젝트에 temp 디렉토리 생성 필요
+    input_file_name = "hello.txt"
+    file_write_content(input_path, input_file_name)
+    file_read_and_print(input_path, input_file_name)
+    file_read_and_print2(input_path, input_file_name)
+    file_add_content(input_path, input_file_name)
+    file_read_and_print3(input_path, input_file_name)
+    file_read_and_print4(input_path, input_file_name)

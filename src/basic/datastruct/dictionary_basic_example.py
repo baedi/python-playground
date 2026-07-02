@@ -92,18 +92,20 @@ def print_key_exist_check(obj: dict, key: str):
         print("No data.")
 
 
-print_self_introduce()
-print_dictionary_manage()
-find_key_with_tuple((0, 3))
-find_key_with_tuple((1, 5))
-print_key_value({"name": "Alex", "age": 24, "hobby": "music"})
-print_key_value2({"name": "Lux", "age": 32, "job": "insurance manager"})
+# 테스트용 (직접 실행 시 호출)
+if __name__ == "__main__":
+    print_self_introduce()
+    print_dictionary_manage()
+    find_key_with_tuple((0, 3))
+    find_key_with_tuple((1, 5))
+    print_key_value({"name": "Alex", "age": 24, "hobby": "music"})
+    print_key_value2({"name": "Lux", "age": 32, "job": "insurance manager"})
 
-user_tier = {
-    "Grace": "Bronze",
-    "Alen": "Diamond",
-    "Lua": "Unranked",
-    "Hana": "Master"
-}
-print_key_exist_check(user_tier, "Alen")
-print_key_exist_check(user_tier, "Kyle")
+    user_tier = {
+        "Grace": "Bronze",
+        "Alen": "Diamond",
+        "Lua": "Unranked",
+        "Hana": "Master"
+    }
+    print_key_exist_check(user_tier, "Alen")
+    print_key_exist_check(user_tier, "Kyle")
