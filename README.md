@@ -49,3 +49,9 @@ python-playground
 > - setuptools (58.1.0)
 
 &nbsp;
+
+
+### 📖 참조 (Reference)
+- Do it! 점프 투 파이썬 (전면 개정 2판)
+
+&nbsp;
