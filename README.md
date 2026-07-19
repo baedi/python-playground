@@ -17,6 +17,7 @@ python-playground
 │    │    ├── 📂 datastruct
 │    │    ├── 📂 inout
 │    │    ├── 📂 module
+│    │    ├── 📂 package
 │    │    ├── 📂 test
 │    │    └── 📂 text
 │    ├── 📂 modules
@@ -36,6 +37,7 @@ python-playground
 | 📂 basic/datastruct  | 자료형 예제 (Datastruct examples)            |
 | 📂 basic/inout       | 입출력, 파일I/O 예제 (Input/Output examples)   |
 | 📂 basic/module      | 모듈 사용 예제 (Module examples)              |
+| 📂 basic/package     | 패키지 사용 예제 (Package examples)            |
 | 📂 basic/test        | 연습문제 풀이 (Practice solutions)            |
 | 📂 basic/text        | 문자열 예제 (String examples)                |
 | 📂 modules/algorithm | 실전 알고리즘 모음 (Practical Algorithms)       |
