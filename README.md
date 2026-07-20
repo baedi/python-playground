@@ -15,6 +15,7 @@ python-playground
 │    │    ├── 📂 classes
 │    │    ├── 📂 control
 │    │    ├── 📂 datastruct
+│    │    ├── 📂 except
 │    │    ├── 📂 inout
 │    │    ├── 📂 module
 │    │    ├── 📂 package
@@ -35,6 +36,7 @@ python-playground
 | 📂 basic/classes     | 클래스(class) 예제 (Class examples)          |
 | 📂 basic/control     | 조건/반복문 예제 (Conditional & Loop examples) |
 | 📂 basic/datastruct  | 자료형 예제 (Datastruct examples)            |
+| 📂 basic/except      | 예외 처리 예제 (Exception examples)           |
 | 📂 basic/inout       | 입출력, 파일I/O 예제 (Input/Output examples)   |
 | 📂 basic/module      | 모듈 사용 예제 (Module examples)              |
 | 📂 basic/package     | 패키지 사용 예제 (Package examples)            |
