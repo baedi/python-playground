@@ -12,6 +12,7 @@
 python-playground
 ├── 📂 src
 │    ├── 📂 basic
+│    │    ├── 📂 built-in-func
 │    │    ├── 📂 classes
 │    │    ├── 📂 control
 │    │    ├── 📂 datastruct
@@ -31,19 +32,20 @@ python-playground
 &nbsp;
 
 ### 🕹️ 콘텐츠 (Contents)
-| Directory            | Description                             |
-|----------------------|-----------------------------------------|
-| 📂 basic/classes     | 클래스(class) 예제 (Class examples)          |
-| 📂 basic/control     | 조건/반복문 예제 (Conditional & Loop examples) |
-| 📂 basic/datastruct  | 자료형 예제 (Datastruct examples)            |
-| 📂 basic/except      | 예외 처리 예제 (Exception examples)           |
-| 📂 basic/inout       | 입출력, 파일I/O 예제 (Input/Output examples)   |
-| 📂 basic/module      | 모듈 사용 예제 (Module examples)              |
-| 📂 basic/package     | 패키지 사용 예제 (Package examples)            |
-| 📂 basic/test        | 연습문제 풀이 (Practice solutions)            |
-| 📂 basic/text        | 문자열 예제 (String examples)                |
-| 📂 modules/algorithm | 실전 알고리즘 모음 (Practical Algorithms)       |
-| 📂 modules/classes   | 실전 클래스 모음 (Practical Classes)           |
+| Directory              | Description                             |
+|------------------------|-----------------------------------------|
+| 📂 basic/built-in-func | 내장 함수 예제 (Built-in Functions Examples)  |
+| 📂 basic/classes       | 클래스(class) 예제 (Class examples)          |
+| 📂 basic/control       | 조건/반복문 예제 (Conditional & Loop examples) |
+| 📂 basic/datastruct    | 자료형 예제 (Datastruct examples)            |
+| 📂 basic/except        | 예외 처리 예제 (Exception examples)           |
+| 📂 basic/inout         | 입출력, 파일I/O 예제 (Input/Output examples)   |
+| 📂 basic/module        | 모듈 사용 예제 (Module examples)              |
+| 📂 basic/package       | 패키지 사용 예제 (Package examples)            |
+| 📂 basic/test          | 연습문제 풀이 (Practice solutions)            |
+| 📂 basic/text          | 문자열 예제 (String examples)                |
+| 📂 modules/algorithm   | 실전 알고리즘 모음 (Practical Algorithms)       |
+| 📂 modules/classes     | 실전 클래스 모음 (Practical Classes)           |
 
 &nbsp;
 
