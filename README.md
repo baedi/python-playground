@@ -16,7 +16,7 @@ python-playground
 │    │    ├── 📂 classes
 │    │    ├── 📂 control
 │    │    ├── 📂 datastruct
-│    │    ├── 📂 except1q
+│    │    ├── 📂 except
 │    │    ├── 📂 inout
 │    │    ├── 📂 lib
 │    │    │    ├── 📂 external
